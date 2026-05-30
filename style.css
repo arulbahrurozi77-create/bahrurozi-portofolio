@@ -428,8 +428,8 @@ media (max-width: 900px) {
     }
 
     .photo-ring{
-        width:280px;
-        height:280px;
+        width:360px;
+        height:360px;
 
         box-shadow:
         0 0 30px #2563eb,
@@ -437,18 +437,25 @@ media (max-width: 900px) {
         0 0 120px #7c3aed;
     }
 
-    .hero-right img{
-        width:320px;
-        height:320px;
+   .hero-right{
+      width:260px;
+      heught:260px;
+      border-radius:50%;
+      overflow:hidden;
+      margin:auto;
 
-        border-radius:50%;
-      overflow: hidden;
        position: relative;
-
        display:flex;
        justify-content:center;
        align-items:center;
 
+
+    .hero-right img{
+        width:100%;
+        height:100%;
+       object-fit:cover;
+         border-radius:50%;
+      
     }
 
     .content-wrapper{
