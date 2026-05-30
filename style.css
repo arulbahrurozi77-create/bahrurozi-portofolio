@@ -438,13 +438,17 @@ media (max-width: 900px) {
     }
 
     .hero-right img{
-        width:180px;
-        height:180px;
+        width:320px;
+        height:320px;
 
         border-radius:50%;
+      overflow: hidden;
+       position: relative;
 
-        object-fit:cover;
-        object-position:center top;
+       display:flex;
+       justify-content:center;
+       align-items:center;
+
     }
 
     .content-wrapper{
